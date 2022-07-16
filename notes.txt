@@ -10,3 +10,17 @@
 - use flexbox or other to cause divs to go horizontally 
   but then break to new line once filled width 
   of container.
+
+- query select all '.square' elements
+- populate into array
+- use forEach, add event listener to hover 
+  change background colour
+
+- make initial num variable 16 but not const
+- add popup to ask for new num
+- update 'num' variable to take this number
+- put loop generating grid into a function
+- call function once upon page load with default
+  'num'
+- call function again each time user updates 'num'
+  via popup

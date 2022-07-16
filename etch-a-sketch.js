@@ -13,3 +13,10 @@ for (let i = 0; i < size; i++) {
     container.appendChild(square);
 }
 
+const squares = document.querySelectorAll('.square');
+let squareArray = Array.from(squares);
+squareArray.forEach(square => {
+    square.addEventListener('mouseover', () => {
+        square.style.backgroundColor = 'black';
+    })
+})
