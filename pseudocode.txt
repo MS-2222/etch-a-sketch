@@ -1,0 +1,12 @@
+- Make container to house squares
+- Set max size for container via css (square)
+
+- loop to generate each square/div - 16 x 16 initially
+- div/square size will be container width / num of divs
+- DOM method createElement
+- apply css class to each div (same class)
+- DOM method append div to parent container
+- repeat to generate all squares
+- use flexbox or other to cause divs to go horizontally 
+  but then break to new line once filled width 
+  of container.
