@@ -28,7 +28,8 @@ function hover() {
 const change = document.querySelector('button');
 change.addEventListener('click', () => {
     let num = prompt("Enter new size", "Max 100");
-    if (num === null) {
+    if (num === null || num > 100) {
+        alert("Enter Valid Size. Max 100!");
         return;
     }
     else {
